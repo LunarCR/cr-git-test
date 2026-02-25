@@ -1,0 +1,22 @@
+git init
+
+git add.
+git commit -m ''
+
+git status
+
+git branch
+git branch/checckout -b <branch>
+git checkout/switch <branch>
+git branch -d <branch>
+
+git log --oneline --graph
+
+git remote -v
+git remote rm <origin>
+git remote add origin git@github.com:LunarCR/cr-git-test.git
+
+git push -u origin master
+
+git fetch origin
+git merge origin/master
